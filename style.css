@@ -1,0 +1,378 @@
+@font-face{
+    font-family: 'bebasneuebold';
+        src: url('bebasneuebold.ttf');
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+    width: 100%;
+}
+
+#centrescroll{
+    margin-left: 15%;
+    margin-right:15%;
+    background-color: #333;
+    border-right: 5px solid;
+    border-right-color: #fec844;
+    border-left: 5px solid;
+    border-left-color: #fec844;
+}
+
+#content-wrap {
+  padding-bottom: 5.5rem;    /* Footer height */
+    background-image: url(g993.png)
+}
+
+#logo {
+  position: fixed;
+    z-index: 6;
+    left: -0%;
+        bottom:86%;
+     width: 7%;
+    border: none;
+    height: %;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #212322;
+    z-index: 5;
+    position: fixed;
+    border-top: 5px solid;
+    border-top-color: #fec844;
+    margin-left: 5%;
+    margin-right: 30%;
+    width:100%;
+    
+    
+ 
+}
+
+.topnav a {
+       list-style-type: none;
+    font-family: 'bebasneuebold';
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-color: #fec844;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%
+}
+
+.connectedbutton{
+    border-left: 0px solid !important;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #cca72d;
+  color: white;
+}
+
+.topnav-right {
+  float: left;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+ background-color: black;
+     color: white;
+        background-color: #212322;
+    border-top: 5px solid;
+    border-top-color: #fec844;
+    padding-left: 231px;
+    height: 2.5rem;
+    bottom: 0;
+    
+}
+
+
+#gate{
+    position: absolute;
+    bottom:2.5rem;
+    left:48%;
+    width:5%
+}
+.fence{
+    position: absolute;
+    width:5%;
+        bottom:2.5rem;
+}
+#fence0{
+    left:-2%;
+}
+#fence1{
+    left:3%;
+}
+#fence2{
+    left: 8%;
+}
+#fence3{
+    left: 13%;
+}
+#fence4{
+    left: 18%;
+}
+#fence5{
+    left: 23%;
+}
+#fence6{
+    left: 28%;
+}#fence7{
+    left: 33%;
+}#fence8{
+    left: 38%;
+}#fence9{
+    left: 43%;
+}#fence10{
+    left: 53%;
+}#fence11{
+    left: 58%;
+}#fence12{
+    left: 63%;
+}#fence13{
+    left: 68%;
+}#fence14{
+    left: 73%;
+}#fence15{
+    left: 78%;
+}#fence16{
+    left: 83%;
+}#fence17{
+    left: 88%;
+}#fence18{
+    left: 93%;
+}#fence19{
+    left: 98%;
+    overflow: hidden
+}
+
+
+.offering{
+    position: relative;
+    left:10%;
+ text-align: center;
+    color: #f2f2f2;
+    font-family: 'bebasneuebold';
+    font-size: 32px;
+    width:80%;
+}
+
+.selbox{
+    position:relative;
+      display:inline-block;
+    font-size: 22px;
+    margin-bottom: 5%;
+    border: 5px solid;
+    border-color: #fec844;
+    color: #212322;
+    background-color: #cca72d;
+    width: 25%;
+    height:30%;
+}
+#leftbox{
+    left: -20%;
+}
+#leftbox a:hover{
+    color: #ffffff;
+    
+}
+
+#midbox{
+    left:-25%;
+    
+}#rightbox{
+    left:45%;
+} #blbox{
+    left:-10%
+} #brbox{
+    left:10%;
+}
+
+#barrier{
+    width:40%;
+    margin-bottom: -10%;
+}
+
+* {box-sizing:border-box}
+
+.about{position: relative;
+    left:10%;
+ text-align: center;
+    color: #f2f2f2;
+    font-family: 'bebasneuebold';
+    font-size: 32px;
+    width:80%;
+}
+
+.contact{position: relative;
+    left:10%;
+ text-align: center;
+    color: #f2f2f2;
+    font-family: 'bebasneuebold';
+    font-size: 32px;
+    width:80%;
+}
+
+.contbox{
+      position:relative;
+      display:inline-block;
+    font-size: 22px;
+    margin-bottom: 5%;
+    border: 5px solid;
+    border-color: #fec844;
+    color: #212322;
+    background-color: #cca72d;
+    width: 100%;
+    height:10%;
+}
+
+#conticon{
+    width:10%;
+    float:left;
+    margin-left: 10%
+}
+
+#conticonfb{
+    position:absolute;
+    width:10%;
+    float:left;
+    margin-left: -40%
+}
+
+
+.contbox h2{
+    font-size: 200%;
+    float:left;
+    margin-left: 20%;
+}
+
+.contbox a{
+    color: #212322;
+}
+
+.contbox a:hover{
+    color: white
+}
+
+.crsimg{
+    width: 100%;
+    height: 5%;
+    object-fit: cover;
+}
+
+/* Slideshow container */
+.Carousel {
+    width:100%;
+    height: 2%;
+  position: relative;
+  margin: auto;
+    border: 5% 5% 5% 5%;
+    border-color: orange;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #cca72d;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #cca72d;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #f2f2f2;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
