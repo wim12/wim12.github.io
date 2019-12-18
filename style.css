@@ -193,8 +193,15 @@ body {
 #leftbox{
     left: -20%;
 }
-#leftbox a:hover{
+
+.selbox a{
+    color: #212322;
+     text-decoration: none;
+}
+
+.selbox a:hover{
     color: #ffffff;
+   
     
 }
 
@@ -224,6 +231,16 @@ body {
     font-size: 32px;
     width:80%;
 }
+
+.accreditations{position: relative;
+    left:10%;
+ text-align: center;
+    color: #f2f2f2;
+    font-family: 'bebasneuebold';
+    font-size: 32px;
+    width:80%;
+}
+
 
 .contact{position: relative;
     left:10%;
